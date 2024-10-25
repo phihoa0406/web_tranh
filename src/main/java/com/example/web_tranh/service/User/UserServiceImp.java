@@ -32,7 +32,7 @@ import java.util.UUID;
 public class UserServiceImp implements UserService{
 
     @Autowired
-    private PasswordEncoder passwordEncoder;
+    private BCryptPasswordEncoder passwordEncoder;
 
     @Autowired
     private UserRepository userRepository;
